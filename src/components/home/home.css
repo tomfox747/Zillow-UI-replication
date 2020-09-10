@@ -1,0 +1,240 @@
+#home .container-top{
+    padding-top:50px;
+    height:90vh;
+    width:100%;
+    background-image: url('../../images/_Desktop_overlay_2.jpg');
+    background-size: cover;
+    background-position-y: -70px;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin:auto;
+}
+
+.container-top h1{
+    color:#fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:50px;
+    font-weight:500;
+}
+.container-top h3{
+    color:#fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+    font-weight:400;
+}
+
+#search-box{
+    margin:auto;
+    margin-top: 50px;
+    background-color:#fff;
+    width:50%;
+    height:70px;
+    border: none;
+    border-radius:5px;
+    border:solid #aaa 1px;
+}
+
+.search-box-form{
+    display:flex;
+    height:fill;
+    border:none;
+}
+
+.search-box-text{
+    flex:10;
+    border:none;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    padding:0px 30px;
+    font-size:20px;
+    color:#000;
+    opacity:0.6;
+}
+.search-box-text:focus{
+    outline:none;
+}
+
+.search-box-button{
+    height:fill;
+    flex:1;
+    border:none;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    background-color: white;
+}
+.search-box-button:focus{
+    outline:none;
+}
+.search-box-button:hover{
+    cursor: pointer;
+}
+
+.search-box-button img{
+    width:30px;
+    height:30px;
+}
+
+.container-middle{
+    margin-top:40px;
+}
+
+.container-middle h2{
+    text-align:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    margin:10px;
+}
+
+.container-middle .separator{
+    margin:50px auto;
+    width:10%;
+    min-width:30px;
+    border:none;
+    border-top: 2px solid yellowgreen;
+}
+
+#fixed-search-box .fixed-search-box{
+    position:fixed;
+    top:0px;
+    width:100%;
+    height:50px;
+    z-index: 1;
+    background-color: #ccc;
+    margin-top:-50px;
+}
+
+.cards-container{
+    width:80%;
+    display:flex;
+    margin:auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-image{
+    width:100%;
+    max-width: 350px;
+}
+
+.card h3, p, div{
+    margin-top:10px;
+    text-align:center;
+}
+
+.card-button{
+    width:150px;
+    height:40px;
+    background-color: white;
+    color:#006AFF;
+    border: 1px #999 solid;
+    border-radius:3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-transition: background-color 0.6s, color 0.6s;
+    transition: background-color 0.6s, color 0.6s;
+}
+
+.card1{
+    max-width: 30%;
+    flex:1;
+    box-shadow: 2px 2px 2px 2px #aaa;
+    border-radius: 3px;
+    padding-bottom: 10px;
+    transition: margin-top 0.3s;
+    -webkit-transition: margin-top 0.6s;
+}
+.card1:hover{
+    margin-top:-10px;
+}
+.card1:hover > div > button{
+    background-color:#006AFF;
+    color:white;
+}
+.card2{
+    max-width: 30%;
+    flex:1;
+    box-shadow: 2px 2px 2px 2px #aaa;
+    border-radius: 3px;
+    padding-bottom: 10px;
+    transition: margin-top 0.3s;
+    -webkit-transition: margin-top 0.6s;
+}
+.card2:hover{
+    margin-top:-10px;
+}
+.card2:hover > div > button{
+    background-color:#006AFF;
+    color:white;
+}
+.card3{
+    max-width: 30%;
+    flex:1;
+    box-shadow: 2px 2px 2px 2px #aaa;
+    border-radius: 3px;
+    padding-bottom: 10px;
+    transition: margin-top 0.3s;
+    -webkit-transition: margin-top 0.6s;
+}
+.card3:hover{
+    margin-top:-10px;
+}
+.card3:hover > div > button{
+    background-color:#006AFF;
+    color:white;
+}
+
+.card p{
+    font-size:14px;
+}
+
+.dropdowns-container{
+    width:80%;
+    margin:auto;
+    margin-top:50px;
+    display:flex;
+    margin-bottom:20px;
+}
+
+.dropdown1{
+    /* display:flex; */
+    justify-content: center;
+    margin-top:0px;
+    flex:1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px;
+    font-weight:lighter;
+    color:#333;
+    border-right: 2px #888 solid;
+}
+.no-border{
+    border:none;
+}
+
+.dropdown-button{
+    width:80%;
+    border:none;
+}
+.dropdown-button div{
+    margin-top:0px;
+    display:flex;
+    align-content: center;
+    align-items: center;
+}
+
+.dropdown-text{
+    flex:5;
+}
+.dropdown-icon{
+    flex:1;
+    width:20px;
+    height:20px;
+}
+
+/* .dropdown1{
+    flex:1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px;
+    font-weight:lighter;
+    color:#444;
+    border: 2px #555 solid;
+} */
